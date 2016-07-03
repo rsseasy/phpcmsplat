@@ -1,0 +1,36 @@
+html, body { padding: 0; margin: 0; width: 100%; height: 100%; overflow: hidden; }
+body { font: 12px Arial, "宋体", Verdana, sans-serif; background: #fcfdff; }
+
+#header { background: url(img/bk.jpg); position: absolute; z-index: 1; width: 100%; }
+#header p { height: 20px; }
+#nav { overflow: hidden; background: url(img/indexbck.png); height: 38px; }
+#nav li { float: left; display: inline; color: #369; height: 33px; margin-top: 5px; font-size: 14px; font-weight: bold; text-decoration: none; cursor: pointer; }
+#nav li.actived { float: left; height: 27px; background: url(img/actived.png) no-repeat; color: #fff; text-decoration: none; text-align: center; }
+#nav li h2 { height: 22px; padding: 0px 10px; padding-top: 5px; background: url(img/nav_li.gif) no-repeat right 0px; font-weight: bold; }
+#nav li.actived h2 { background: url(img/actived.png) no-repeat right -48px; }
+
+#content { position: absolute; top: 38px; bottom: 30px; left: 0px; right: 0px; }
+#content table { width: 100%; }
+#leftscroll { position: absolute; top: 0; left: 0; bottom: 0; background: #76c1ff url(img/left_bck.png) repeat-x 0 -2px; width: 160px; overflow: hidden; }
+#left { position: absolute; left: 6px; }
+#right { position: absolute; left: 160px; top: 0; right: 0; bottom: 0; }
+
+#leftMenus { width: 149px; margin: 0px auto; margin-top: 10px; margin-bottom: 20px; }
+#leftMenus li { background: white; }
+#leftMenus li, #leftMenus p { border-bottom: 1px solid #d8ecff; background: #fff url(img/menus_dd.png) no-repeat 8px center; border-left: 1px solid #ffffff; border-right: 1px solid #ffffff; padding: 5px 0px; padding-left: 26px; }
+#leftMenus p { background: #fff; }
+#leftMenus p { border-bottom: solid 1px #ccc; }
+#leftMenus dl { margin-bottom: 5px; background: url(img/menu_btm.png) no-repeat center bottom; padding-bottom: 5px; }
+#leftMenus dt { height: 30px; line-height: 30px; background: url(img/left_menu.png) no-repeat; color: #333; font-weight: bold; padding-left: 8px; background-color: none; cursor: pointer; }
+#leftMenus li.reset { padding: 0; background: none; line-height: normal; border: none; }
+
+#leftMenus a { color: #3d6bac; text-decoration: none; }
+#leftMenus a:hover { color: #264d84; font-weight: bold; }
+#leftMenus p.selected a { color: red; }
+
+#controlbtn { cursor: pointer; padding-left: 20px; }
+
+#footer { background: url(img/footer.png); position: absolute; bottom: 0px; height: 30px; line-height: 30px; width: 100%; text-align: center; }
+#login { color: blue; text-align: right; }
+#login img { vertical-align: middle; }
+#login a { color: blue; }

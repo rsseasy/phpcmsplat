@@ -1,0 +1,10 @@
+﻿html, body { overflow: hidden; }
+body { font-size: 12px; background: #0976af; }
+form { position: absolute; top: 50%; left: 50%; height: 456px; width: 626px; margin-top: -278px; margin-left: -313px; background: url(login.jpg) no-repeat; text-align: center; display: inline; padding-top: 165px; }
+td { padding: 5px 0px; font-size: 14px; font-weight: bold; font-family: 微软雅黑; color: White; text-align:left; }
+td input { height: 25px; border: 1px solid #2888cf; border-radius: 5px; padding-left: 5px; width: 145px; vertical-align:middle; }
+td img { vertical-align:middle; border-radius:5px; }
+td input.w70 { width:70px; }
+div { margin-top: 15px; }
+div p { color: white; font-size: 24px; font-weight: bold; margin-top: 25px; }
+button { font-size: 14px; font-weight: bold; color: White; margin: 0px 35px; }
